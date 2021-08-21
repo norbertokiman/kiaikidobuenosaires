@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="mm_training.css" type="text/css" />
+<style type="text/css">
+<!--
+.Estilo7 {
+	font-size: 16px
+}
+.Estilo8 {
+	font-size: 14px
+}
+.Estilo10 {
+	color: #993300;
+	font-size: 14px;
+	font-weight: bold;
+}
+.Estilo15 {color: #0033FF}
+.Estilo17 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Estilo45 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.Estilo65 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+}
+.Estilo66 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+.Estilo67 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0033FF;
+}
+.Estilo68 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #000000; }
+a:link {
+	color: #0033FF;
+	text-decoration: none;
+}
+.Estilo69 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0033FF;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.Estilo33 {color: #0066CC;
+	font-size: 12px;
+}
+
+
+.Estilo70 {font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #000000; }
+.Estilo75 {font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #FF0000; }
+.Estilo76 {font-size: 16px; color: #FF0000; font-family: Arial, Helvetica, sans-serif; }
+.Estilo77 {font-size: 18px; color: #FF0000; }
+.Estilo78 {font-size: medium}
+.Estilo80 {font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #FF0000; }
+.Estilo84 {font-size: 24px}
+.Estilo85 {font-weight: bold; color: #FF0000; font-family: Arial, Helvetica, sans-serif;}
+.Estilo101 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.Estilo102 {color: #FF0000}
+.Estilo103 {font-size: 16px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+
+-->
+</style>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63921879-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17273774-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#D3DCE6" onload="MM_preloadImages('Profesor2.jpg','especiales2.jpg','como llego2.jpg','certificados medicos2.jpg','inscripciononline.JPG')">
+	<table width="100%"  height="3667" border="0" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#26354A">
+	<td height="70" colspan="3" class="logo" nowrap="nowrap"><div align="center"><img src="Encabezado.gif" width="1320" height="201" /></div></td>
+	<td width="4">&nbsp;</td>
+  </tr>
+
+	<tr bgcolor="#FF6600">
+	<td height="4" colspan="4"><img src="mm_spacer.gif" alt="" width="1" height="4" border="0" /></td>
+  </tr>
+
+
+	<tr bgcolor="#FFCC00">
+	<td colspan="3" height="21"><div align="center">
+	  <table width="789" border="0" cellpadding="0" cellspacing="0" id="navigation">
+        <tr>
+          <td width="58" align="center" nowrap="nowrap" class="navText"><a href="index.html">INICIO</a></td>
+          <td width="69" align="center" nowrap="nowrap" class="navText"><a href="clases.html">CLASES</a></td>
+          <td width="79" align="center" nowrap="nowrap" class="navText"><a href="tecnicas.html">PRÁCTICA</a></td>          
+          <td width="88" align="center" nowrap="nowrap" class="navText"><a href="seminario.html">SEMINARIO</a></td>                    
+          <td width="67" align="center" nowrap="nowrap" class="navText"><a href="textos.html">ARTÍCULOS</a></td>
+          <td width="23" align="center" nowrap="nowrap" class="navText"><a href="bibliografia.html">BIBLIOGRAFÍA</a> </td>
+          <td width="81" align="center" nowrap="nowrap" class="navText"><a href="historia.html">HISTORIA</a></td>          
+		  <td width="69" align="center" nowrap="nowrap" class="navText"><a href="links.html">LINKS</a></td>
+		  <td width="69" align="center" nowrap="nowrap" class="navText"><a href="contactenos.html" class="Estilo78">CONTACTO</a></td>
+        </tr>
+      </table>
+	</div>
+	  <div align="center"></div></td>
+	<td width="4">&nbsp;</td>
+  </tr>
+
+
+	<tr bgcolor="#FF6600">
+	<td height="4" colspan="4"><img src="mm_spacer.gif" alt="" width="1" height="4" border="0" /></td>
+    </tr>
+
+
+	<tr bgcolor="#D3DCE6">
+	
+	<td height="44"><img src="mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	<td align="center" valign="middle">
+		<p class="Estilo68"><strong>Técnicas de Aikido</strong>    
+		<p class="Estilo68">Artículos escritos por:<strong> <span class="Estilo8"><a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo67">Doshu Kenjiro Yoshigasaki</a></span></strong> 
+	</td>    
+  
+    <td><p>&nbsp;</p></td>
+	<td>&nbsp;</td>
+	</tr>
+
+	
+			  	  	  
+	  <tr bgcolor="#D3DCE6">
+	  <td width="147" rowspan="10" valign="top" bgcolor="#D3DCE6">&nbsp;</td>
+	  <td width="660" valign="top" bgcolor="#D3DCE6"><h2 align="center" class="Estilo45">
+    <img src="doshu9.jpg" alt="" width="550" height="600" /></h2>
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">1.- </span>Porque Aikido no es autodefensa</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Hay dos palabras cuya diferencia no es conocida para la mayoría de las personas. Una es proteger y la otra es defender. Proteger significa hacer algo para que una vida o material continúe existiendo sin daño. Usted protege su teléfono celular con una cubierta o se protege a si mismo de un virus. Defender significa hacer algo de tal modo que una persona u organización puedan continuar ejerciendo lo que hacen. Por eso usted puede defender el derecho humano de las personas. Un gobierno defiende su país con su ministerio de defensa. La armada está bajo el ministerio de defensa y por eso su tarea es defender. El trabajo de la policía puede ser el de proteger bajo un gobierno democrático y el de defender bajo un gobierno no-democrático. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Si usted quiere defender algo, tiene que controlar a otros. El control está, básicamente, en contra de los derechos humanos, ya que un ser humano no tiene el derecho de controlar a otros. Que no tenga derecho, no significa que no deba hacerse. Un padre no tiene derecho de controlar a su hijo, pero el/ella puede y debe controlar a su hijo si es necesario.</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Cuando usted practica una técnica de Aikido, tiende a controlar a Uke. Entonces Aikido se vuelve de autodefensa y tiende a ser agresivo. Uno tiene que dominar la técnica con la ayuda de Uke. Un maestro es alguien que puede realizar una técnica perfectamente. Por eso hay maestros en artesanía, arte, etc. En Alemania hay un gremio de maestros quienes están manteniendo las técnicas tradicionales. Usted debe dominar las técnicas de Aikido de tal modo que pueda usarlas para proteger su vida y crear una vida y un mundo mejor.</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">21 de Abril de 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto escrito por: </strong><a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto traducido por: </strong><a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">2.- </span>Diferencia entre Undo (ejercicio) y Waza (técnicas)</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Una técnica es una forma fija en un entorno fijo para alcanzar un objetivo fijo. Si usted quiere aplicar una técnica en el mundo real, tiene que ajustarlo porque en el mundo real el entorno está cambiando. En su vida, el objetivo puede cambiar también por eso usted tiene que actuar y no aplicar una técnica. Aprender técnicas lo ayuda a actuar mejor en su vida. Al practicar una técnica en Aikido, normalmente se le aplica esta a un Uke. Por eso uno tiende a reaccionar a lo que hace Uke y por eso no pueder guiar. Esa es la dificultad para desarrollar una técnica correcta de Aikido. Para guiar a Uke, usted tiene que imaginar un segundo en el futuro durante la técnica. La forma mas fácil es hacer la técnica solo, imaginando a Uke. Sin embargo, no es fácil imaginar, especialmente cuando uno es un principiante. Uno tiene que desarrollar la habilidad de la imaginación. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">Ejercicio o Undo es una actividad para desarrollar su habilidad de hacer algo o para mantener la salud. Kenko Taiso es para mantener la salud y Aiki Taiso es para desarrollar la habilidad de imaginar técnicas de Aikido. Cuando usted aplica una técnica a Uke, ambos, el cambio de forma y el cambio de lugar, están pasando todo el tiempo. Por eso es dificil imaginar el conjunto. Usted tiene que imaginar separadamente el cambio de forma y el cambio de lugar. En música clásica hicieron esto separando el ritmo y la melodía. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">Aiki Taiso es diferente de realizar una técnica por uno mismo. Cuando uno realiza una técnica por uno mismo, se cambia la forma y el lugar al mismo tiempo que la imaginación. Cuando se hace Aiki Taiso, usted primero cambia la forma sin cambiar el lugar. Después que cambió la forma sin cambiar el lugar, usted cambia el lugar sin cambiar la forma. Algunas veces usted cambia la forma, cambia el lugar y cambia la forma nuevamente. Practicando Ejercicios o Undo, usted desarrolla la habilidad de la imaginación de una técnica de Aikido con Uke. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">23 de Abril de 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto escrito por: </strong> <a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto traducido por: </strong> <a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">3.- </span>El Poder tiene la Razón y la Mayoría tiene la Razón</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Las plantas y animales tienen instinto de supervivencia. Por eso hay instintos básicos y uno es "el Poder tiene la Razón" y lo siguiente es "la Mayoría tiene la Razón". Dado que los seres humanos son también animales, esos instintos permanecen en ellos. Así como en la mayoría de los animales, "el Poder tiene la Razón" solía funcionar también en el mundo humano. Aquellos que tenían fuerza militar conquistaban al mundo. Sin embargo, los seres humanos son capaces de disfrutar una vida mejor, diferente que las plantas y los animales. Para disfrutar mejor de la vida, uno necesita de los esclavos y por eso uno tiene que respetar que "La Mayoría tiene la Razón". Esta idea creó la democracia y se convirtió en la dictadura de la Mayoría. Esos dos instintos animales también existen en el mundo del Aikido. En el dojo muy a menudo las personas justifican sus técnicas diciendo "el Poder tiene la Razón". Si uno lo puede hacer, eso significa que está bien. Por eso una persona con más fuerza puede justificar su técnica. Luego una gran organización de Aikido reclama estar en lo correcto, usando la idea de "la Mayoría tiene la razón". Esta idea desarrolla otra idea: "Cuanto más, mejor". La mayoría de los gobiernos piensan "cuantas más armas, mejor" y "cuanto más dinero, mejor". </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Sin embargo, desde el 2000 la economía mundial en términos de volumen por persona no se ha desarrollado. Así, una de las personas más ricas del mundo declaró, "La gente rica debería donar un tercio de su dinero al mundo". Por supuesto, lo que quería decir era que la gente rica debería gastar un tercio de su dinero para controlar al mundo y de ese modo permanecer ricos para siempre. En Japón mucha personas jóvenes comenzaron un negocio con mínimo beneficio en forma exitosa. Dado que la condición económica es difícil en todo el mundo, ellos prefieren tener un negocio estable con mínimo beneficio a pasarse la vida corriendo. Hay un viejo proverbio Francés que dice, "Le mieux est l'ennemi du bien" lo cual significa: "Lo mejor es enemigo de lo bueno". Si usted pone MÁS esfuerzo en mejorar algo, esto puede causar el resultado opuesto. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Esta derivación  de "cuanto más, mejor" es puramente humana, porque las plantas y animales son felices con sólo lo necesario y ellos no quieren más que eso. Es por eso que la idea de "cuanto más, mejor" está destruyendo la parte de la vida del mundo. Tenemos que ser cuidadosos con esos instintos animales, los cuales existen en casi todos los aspectos de este mundo. La humanidad se desarrolló alejándose del instinto animal, así que del mismo modo tenemos que entender, los errores de la humanidad.</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">25 de Abril de 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto escrito por: </strong> <a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto traducido por: </strong> <a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">4.- </span>Viviendo con dolor</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Si usted mira los métodos antiguos de practica en el mundo, muchos de ellos incluyen del pasar a través del dolor. Este no es solo un método Japonés sino también de Europa, África, América y otros lugares del mundo. Esto era así porque la gente sabía convivir con el dolor por aquellos días. Esos métodos con dolor desaparecieron completamente excepto en una comunidad donde las personas están tratando de preservar la vieja cultura. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Alrededor de 100 años atrás, las personas tenían que vivir con dolor en todo el mundo, pero en estos días las técnicas con analgésicos se han desarrollado en la ciencia enormemente. Por eso la gente joven no sabe como vivir con dolor y solo quieren liberarse de el. Es bueno tener la tecnología para aliviar el dolor pero no es posible liberarse de el completamente. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">En estos días mucha gente joven sufre de dolor psicológico. Tenemos que entender que los analgésicos son básicamente malos para la salud. Por eso es lógico que deberíamos vivir con tan pocos analgésicos como sea posible en nuestras vidas. Por eso yo pienso que las técnicas dolorosas en Aikido son buenas para practicar y deberíamos tratar de vivir con dolor tanto como sea posible en nuestras vidas. Ver los pensamientos y el cuerpo ayuda a vivir con dolor, porque la mayoría de las personas desarrollan mas dolor con una psique errónea. Hay técnicas para vivir con dolor en la vida diaria. Yo espero que los estudiantes de Aikido puedan desarrollar estas técnicas a través de la práctica de Aikido. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">25 de Abril de 2020 </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto escrito por: </strong> <a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto traducido por: </strong> <a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">5.- </span>Ma Ai y distanciamiento</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">El cambio básico que creó el Covid en nuestra sociedad es el distanciamiento. La transmisión del virus puede ser detenida mayormente manteniendo la distancia de 1.5 metros entre las personas. Esto no cambia mi vida personal porque esta distancia corresponde con el Ma Ai en Aikido y yo me siento confortable cuando todas las personas respetan este Ma Ai. La sociedad está controlada por la fuerza militar y no por la gente rica. "Rico" significa mucho dinero en una sociedad basada en la economía del dinero. Los Mongoles quienes conquistaron un tercio del continente Eurasiático, fueron muy poderosos pero no ricos. Los Egipcios, quienes tenían oro y joyas eran poderosos pero no ricos. La economía del dinero está basada en la sociedad agrícola. La agricultura se desarrolló mucho desde el siglo XIII y esto creó la idea en el mundo de que la sociedad agrícola había comenzado a destruir la sociedad de la caza en todo el mundo. La gente rica comenzó a controlar la fuerza militar y consecuentemente la fuerza política. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">El Ma Ai en Aikido se basa en técnicas de pelea, pero ya había Ma Ai en todo el mundo donde la gente rica controla la sociedad. Ellos mantienen la distancia entre las personas, especialmente entre ricos y pobres. El rey se sienta más alto que los demás porque las bacterias y los virus mayormente se propagan de arriba hacia abajo. Yo pienso que había un conocimiento del peligro en la sociedad basada en la agricultura. Hay dos peligros, uno del ataque de seres humanos y otro del ataque de bacterias y virus. Ambos pueden ser evitados un poco manteniendo la distancia Ma Ai. La gente de caza y las personas pobres no podían mantener la distancia entre las personas en su sociedad. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Hasta cien años atrás, había distanciamiento basado en cuán rico eras. Cuanto más rico, más distancia. Esto protegía a la gente rica de ataques de los seres humanos y también de bacterias y virus. Desde hace cien años, el petróleo creó la fuerza militar y el dinero. El dinero acostumbraba basarse en oro, pero desde 1970 el dinero se basa en el petróleo y ahora (desde 1990) se basa en la fuerza militar a través del sistema bancario internacional. Por eso el distanciamiento entre gente rica y también de la gente pobre ha desaparecido en países donde la economía del dinero está altamente desarrollada. Eso es por lo que aún la gente rica muere con Corona virus en Europa, Estados Unidos y Japón. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Ahora la gente rica en Estado Unidos y Europa descubrió el peligro del virus y la necesidad del distanciamiento. Cien años atrás, ellos crearon un mundo donde había distancia entre las personas en las sociedades de gente rica y no había espacio para mantener la distancia en las sociedades de gente pobre. La gente rica tenía una casa grande con jardín grande y la gente pobre vivía en casas muy pequeñas. Ahora la mayoría de las personas tienen un espacio razonable para vivir, y por eso el espacio público se está volviendo más y más pequeño. De aquí que la distancia entre las personas en el espacio público y en el transporte público no sea suficiente. En un país donde ricos y pobres viven separadamente, también en el espacio y el transporte público las personas están separadas. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">18 de Junio de 2020 </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto escrito por: </strong> <a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto traducido por: </strong> <a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">6.- </span>Tsuzukiwaza 13 - Ryotemochi</p>
+	  <iframe src="https://player.vimeo.com/video/462931056?color=ffffff" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 1:</strong> En Aikido, lo más importante es entender que la belleza de las técnicas, estén de acuerdo con la eficiencia en la vida real. Los deportes son una parte artificial de la vida, la cual se la denomina competencia. Las técnicas en una competencia, no son necesariamente hermosas, porque una competencia no es la vida real. En la vida real tenemos que considerar varias personas que puedan atacarlo. Por eso usted debe enfrentar al próximo atacante inmediatamente, luego que ha terminado con Uke. Las primeras dos técnicas muestran esto en la postura final de Nage. Nage debe detenerse al final de cada técnica de tal modo que pueda tratar con el próximo atacante. En ese momento, Nage debe estar suficientemente lejos de Uke de tal modo que Uke no lo pueda atacar inmediatamente. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 2:</strong> La última técnica muestra que usted puede tratar con dos atacantes al mismo tiempo y por eso debe ser capaz de detener a Uke completamente. Nage puede arrojar a Uke en la dirección que el venía o tratar con el segundo Uke mientras se mantiene al primero.</p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">1 de Octubre de 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Escrito por: </strong><a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Traducido por: </strong><a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  <p><br /></p>
+	  
+
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">7.- </span>Tsuzukiwaza 19 - Tsuki</p>
+	  <iframe src="https://player.vimeo.com/video/464792673?color=ffffff" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Cuando practica Tsuzukiwaza con un Uke, usted ve solo un atacante y por eso se detiene completamente para percibir si otro atacante aparece y donde aparece. Cuando practica con varios Ukes, usted tiene una idea global de donde están, por eso debe mantenerse cambiando su posición luego de cada técnica mientras trata de saber donde se encuentran. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 1:</strong>  En una situación real Nage tiene permitido golpear a Uke, pero el propósito de golpear no debería ser el hacer daño, sino cambiar la mente de Uke. Eso es por lo que Nage intenta hacer caer a Uke con el movimiento de golpear. Uke permite a Nage practicar el movimiento correcto, sin ser dañado el mismo. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 2:</strong> Después que se termina una técnica con un Uke, Nage debe inmediatamente tratar con el siguiente, haciendo primero Irimi o Tenshin. Nage debe detenerse completamente en el momento que Uke cae, de tal modo que pueda cambiar su posición libremente y así tratar con el próximo Uke. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">5 de Octubre de 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Escrito por: </strong><a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Traducido por: </strong><a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  <p><br /></p>
+
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">8.- </span>Tsuzukiwaza 2 - Ushiro Katatedori</p>
+	  <iframe src="https://player.vimeo.com/video/464775927?color=ffffff" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 1:</strong> Nage debe cambiar la forma del brazo de Uke de completamente cerrado a completamente abierto. El hace esto guiando el brazo de Uke en un gran círculo rotando el codo de Uke. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 2:</strong> Nage no debería tratar de empujar el codo de Uke hacia abajo sino guiarlo adelante y abajo en un movimiento espiral con el brazo estirado. Este movimiento espiral es guiado por la otra mano de Nage la cual está sosteniendo la muñeca de Uke.  </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 3:</strong> Nage debe guiar a Uke abajo guiando el brazo completo de Uke en un gran círculo con su Tegatana antes de agarrar su muñeca para aplicar Koteoroshi. </p>	  	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">Octubre de 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Escrito por: </strong><a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Traducido por: </strong><a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  <p><br /></p>
+
+
+
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">9.- </span>Kumitachi (parte 1)</p>
+	  <iframe src="https://player.vimeo.com/video/468473802?color=ffffff" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 1:</strong> Al comienzo las personas acostumbraban practicar técnicas de Aikido una por una. Luego apareció la idea de la competencia. Sin embargo, las técnicas de Aikido están hechas para funcionar contra varios atacantes y por eso Tohei Sensei comenzó a poner seis técnicas de tal modo que los estudiantes puedan aprender a tratar con varios atacantes. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 2:</strong> En la vida real tenemos que hacer diferentes técnicas de acuerdo a la situación y a este tipo de práctica se lo llamó "técnicas libres". Pero no es fácil hacer técnicas libres y por eso Tohei Sensei eligió una forma de ataque para cada Tsuzukiwaza para hacerlo fácil de practicar. Así podemos hacer muchos Tsuzukiwaza diferentes si es necesario. Nosotros podemos crear muchos Tsuzukiwaza diferentes y variantes de un Tsuzukiwaza mientras estas variantes desarrollen nuestra habilidad para tratar con peligros en la vida real y para crear nuestra vida y el mundo. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 3:</strong> Cuando practicamos Bokken o Jo, practicamos Kata. Hay muchas técnicas, por ejemplo, 20. Es difícil practicar 20 técnicas, por eso un maestro eligió 10 técnicas y creó un Kata. La pregunta es cómo elegir 10 técnicas de 20. Esto es matematica. Practicando 10 técnicas usted debería desarrollar la habilidad de hacer 20. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 4:</strong> Usted puede desarrollar la habilidad de hacer dos técnicas practicando una. Un maestro elige 10 técnicas y luego las pone juntas de un modo armonioso. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 5:</strong> Kumitachi: Uke ataca con Kote y Nage contraataca. Uke va hacia atrás para evitar el ataque de Uke y ataca de nuevo con Tsuki. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 6:</strong> Uke ataca con Kote y cuando Nage trata de contraatacar, Uke inmediatamente ataca de nuevo con Tsuki. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 7:</strong> Uke puede estar en Hanmi o Gyaku Hanmi mientras su tronco y su Bokken mantenga la relación correcta con Nage y su Bokken. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 8:</strong> En este Kumitachi Uke usa Gyaku Hanmi para atacar inmediatamente. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Detención del video 9:</strong> Al comienzo el Bokken de Nage está apuntando a Uke. Luego Uke baja su cuerpo de tal modo que su cuerpo está fuera de la dirección del Bokken y el Bokken de Uke queda apuntando a Nage. </p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">Octubre de 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Escrito por: </strong><a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Traducido por: </strong><a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  <p><br /></p>
+
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">10.- </span>Kumitachi (parte 2)</p>
+	  <iframe src="https://player.vimeo.com/video/470066024?color=ffffff" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">Noviembre 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Explicado por: </strong><a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Subtítulos traducidos al Castellano por: </strong><a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  <p><br /></p>
+
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">11.- </span>Kumitachi (parte 3)</p>
+	  <iframe src="https://player.vimeo.com/video/470066218?color=ffffff" width="700" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">Noviembre 2020</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Explicado por: </strong><a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Subtítulos traducidos al Castellano por: </strong><a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  <p><br /></p>
+
+	  
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">12.- </span>La enseñanza en el Aikido.</p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Aikido nació antes del uso del petróleo y yo siempre enseñé una forma de vida libre del uso del petróleo. El mundo debe cambiar pero las personas y los gobiernos están tratando de no cambiar. Los nuevas formas de aprendizaje del Aikido son solo modificaciones superficiales y adaptaciones, no son un cambio real. El Aikido debe guiar el mundo a cambiar fundamentalmente. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">La única manera de entender este mundo es verlo sin ponerle nombre a nada. Eso es por lo que usted primero debe ver sus pensamientos los cuales incluyen muchos nombres. De ese modo usted comienza a ver el mundo sin ponerle nombres y ese es el comienzo para poder ver la realidad. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Aikido es solo un nombre para una determinada actividad que realizan los seres humanos. Cada persona que practica Aikido tiene su propio propósito. Yo estoy enseñando Aikido y mi propósito al enseñarlo es ayudar a cada persona a crear su vida. Es posible que usted sea atacado físicamente y por eso las técnicas de Aikido deben ayudarlo a tratar con un ataque físico. Además hay ataques psicológicos y conflictos, por eso la práctica de Aikido debe ser capaz de tratar con ellos también. Pero sobre todo usted debe poder crear su vida, por eso yo enseño Aikido de forma tal que la práctica lo ayude a hacerlo. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">En las artes marciales Japonesas, las personas talentosas creaban su propio arte rechazando cualquier transferencia de conocimiento,  la mayoría de las personas solo aceptaban la idea de la transferencia de la tradición. Ahora, la idea de transferir conocimiento no es buena incluso para las personas normales. Usted debe enseñar lo que usted piensa que es bueno enseñar. Uno solo aprende para crear su vida. Eso es todo. No debe copiar a otros. No debe tampoco copiarme a mi. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">O sea que no debería haber ninguna transferencia de conocimiento o instrucción en Aikido ni en ningún arte. La idea de transferencia de conocimiento era válida hasta 100 años atrás, cuando cada generación solo estaba repitiendo a la generación anterior, ya que la sociedad no cambiaba mucho. Usted solo continuaba el trabajo de sus padres y pensaba que sus hijos continuarían el suyo, pero ahora no es así. El mundo está cambiando muy rápidamente y cada generación debe crear su propio mundo. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Lo importante es que uno no debería tener una mente de pelea, el propósito de enseñar Aikido es crear una mente que no pelee. Simplemente se deben practicar las técnicas de Aikido normales, con una mente correcta, con una mente de no pelea. De este modo, también puede entrenar solo, practicando la Respiración Ki, Aiki Taiso, leer mis conferencias y en especial profundizar el entendimiento de usted mismo y el mundo. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Yo veo el Aikido desarrollándose en el futuro como una forma de arte. Los practicantes, futuros instructores e instructores de dojo deberían desarrollar el Aikido de acuerdo al mundo y al medio ambiente. Aikido no puede ser enseñado a través de ninguna plataforma ya que el mundo no puede ser creado a través de ella. </p>
+	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">Abril de 2020 </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto escrito por: </strong> <a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto traducido y compilado por: </strong> <a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  <p><br /></p>
+
+	  <p align="center" class="Estilo7">&nbsp;</p>
+	  <p height="1530" valign="top" bgcolor="#D3DCE6"><p align="center" class="Estilo75"><span class="Estilo70">13.- </span>Aikido y la imaginación del futuro</p>	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">La palabra "arte marcial" no tiene sentido porque "marcial" significa "guerra" y  guerra es lo opuesto al arte. Hay muchos nombres los cuales fueron inventados para traducir a otro lenguaje y la mayoría de ellos no tienen sentido. La gente cree cosas sin sentido solo porque todos las usan. "Budo" es también un nombre inventado alrededor de 150 años atrás en Japón y también es un nombre que no es correcto. Es imposible dar el significado de la palabra, pero las personas que comenzaron a usar el nombre querían decir "modo de vida para detener la pelea". Por eso "Budo" y "arte marcial" son muy diferentes. No solo hay muchos nombres sin sentido en el mundo sino que todos los nombres están equivocados en el sentido que el nombre y la realidad son siempre diferentes. Por eso es inútil tratar de entender el significado preciso de un nombre. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Hay que distinguir la práctica de técnicas de deporte y la vida de las personas. Todos, incluidos los deportistas viven sus vidas imaginando su futuro. Así que algunas veces podemos imaginar el futuro muy bien. Es posible que algunas veces un deportista pueda imaginar el futuro de la competencia. Esto no tiene nada que ver con la práctica de su deporte el cual es el desarrollo de un reflejo condicionado. Usted debe entender lo que es un reflejo condicionado. Reflejo significa reaccionar contra la acción de un oponente. Mientras que en Ki Aikido usted imagina lo que va a hacer y lo hace. Esto es por lo que usted debería ser capaz de hacer una técnica por usted mismo. De otro modo usted puede actuar por reflejo. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Una técnica sucede en un ambiente determinado, usando un determinado juego de técnicas fijas y persiguiendo un resultado fijo. Cuando practica una técnica, usted puede hacerlo con imaginación del futuro. Entonces está practicando un arte. Si practica una técnica sin imaginación del futuro, está desarrollando un reflejo condicionado. En deportes usted solo imagina el resultado final y no el proceso para alcanzarlo. Por supuesto un deportista de un muy alto standard que haya desarrollado un reflejo condicionado perfecto, puede desarrollar la imaginación del futuro. Pero eso está reservado solo para los grandes campeones. La práctica de Aikido debe ser la práctica de un arte y no de un deporte. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Es verdad que la mayoría de la gente de Aikido que no están siguiendo mi enseñanza tiende a desarrollar un reflejo condicionado como en los deportes. Esa es la dificultad de enseñar Aikido. Es muy importante practicar todas las técnicas de Aikido solos. Esto es lo que Tohei Sensei comenzó y es la diferencia más importante entre el Ki Aikido y otros. Si usted practica siempre con Uke, tiende a reaccionar, lo cual termina en pelea. Usted se basa en el pasado y todos los actos basados en el pasado eventualmente se desarrollarán como una pelea. Practicando todas las técnicas por usted mismo, luego cuando usted practica con Uke, su mente está en el futuro. Esto significa que usted está guiando a Uke y no reaccionando contra Uke. </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66">Un acto es una expresión de uno mismo en un ambiente percibido. Por eso, la vida es una continuación de percibir y actuar alternativamente. Al conjunto de una percepción y un acto se lo llama "un momento" y el largo de un momento en ciencia es de "un segundo". Un segundo corresponde básicamente a un latido del corazón y usted actúa en armonía con el latido de su corazón. Por eso usted imagina el "momento" siguiente. </p>
+	  
+	  <p align="justify" class="detailText Estilo17 Estilo66">Abril de 2020 </p>
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto escrito por: </strong> <a href="http://kiaikidobuenosaires.com.ar/doshu.html" class="Estilo69">Doshu Kenjiro Yoshigasaki</a></span></p> 	    
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Texto traducido y compilado por: </strong> <a href="http://kiaikidobuenosaires.com.ar/clases01.html" class="Estilo69">Sensei Norberto Kiman</a></span></p> 
+	  <p align="justify" class="detailText Estilo17 Estilo66"><strong>Conferencia original en Inglés: </strong><a href="https://toitsu.dk/lectures_from_doshu/aikido_techniques.html" class="Estilo69">Toitsu.dk - Aikido Techniques</a></span></p> 
+	  <p><br /></p>
+
+	  <p><br /></p>
+	  <p><br /></p>
+	  
+	  <p align="justify" class="detailText Estilo17"></p>
+	  <p><br /></p>
+	  </td>
+	  <td width="488" valign="top" bgcolor="#D3DCE6">
+		<h3 align="center" class="Estilo10"><span class="Estilo70">Artículos</span></h3>
+        <h3 align="center" class="Estilo10"><a href="textos.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','Doshu.jpg',0)"><img src="Doshu.jpg" name="Image13" width="230" height="220" border="0" id="Image13" /></a></h3>        
+        <p align="center" class="Estilo7">&nbsp;</p>
+        <p align="center" class="Estilo7">&nbsp;</p>
+        <h3 align="center" class="Estilo10"><span class="Estilo70">Bibliografía</span></h3>
+        <h3 align="center" class="Estilo7"><a href="bibliografia.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','libros1.jpg',1)"><img src="libros1.jpg" alt="" name="Image11" width="208" height="223" border="0" id="Image11" /></a></h3>
+        <p align="center" class="Estilo7">&nbsp;</p>
+        <p align="center" class="Estilo7">&nbsp;</p>
+	    <h3 align="center" class="Estilo10"><span class="Estilo70">Mirá videos de la práctica</span></h3>
+	    <h1 align="center" class="Estilo7"><a href="tecnicas.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','youtube.jpg',1)"><a href="tecnicas.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','youtube2.jpg',1)"><img src="youtube2.jpg" name="Image12" width="220" height="175" border="0" id="Image12" /></a></h1>
+	    <p align="center" class="Estilo7"><span class="Estilo68"></span></p> 
+	  
+	  
+  </tr>
+ 
+</table>
+
+</body>
+</html>

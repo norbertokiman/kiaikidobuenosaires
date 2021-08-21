@@ -1,0 +1,2 @@
+dev                      blocks      quota      limit      grace      files      quota      limit      grace
+/dev/sda5                 24880     256000     256000                   785          0          0           
